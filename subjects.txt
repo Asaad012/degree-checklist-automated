@@ -1,0 +1,221 @@
+ACAD - Academic
+ACSC - Actuarial Science
+AGRI - Agriculture
+AGRN - Agronomy
+ANAT - Anatomy & Neurobiology
+ANSC - Animal Science
+APSC - Applied Science
+AQUA - Aquaculture
+ARBC - Arabic
+ARCH - Architecture
+ARTC - Applied Health Services Research
+ARTS - Art
+ASSC - Arts and Social Sciences Interdisciplinary
+BIOA - Biology (Faculty of Agriculture)
+BIOC - Biochemistry and Molecular Biology
+BIOE - Biological Engineering
+BIOL - Biology
+BIOT - Bioethics
+BMNG - Biomedical Engineering
+BUSI - Business Administration
+BVSC - Bioveterinary Science
+CANA - Canadian Studies
+CH&E - Community Health & Epidemiology
+CHEE - Chemical Engineering
+CHEM - Chemistry
+CHIN - Chinese
+CHMA - Chemistry (Faculty of Agriculture)
+CIVL - Civil Engineering
+CLAS - Classics
+CMMT - Communications
+CNLT - Centre for Learning and Teaching
+COMM - Commerce
+CPST - Complimentary Studies
+CRWR - Creative Writing
+CSCA - Computer Science (Faculty of Agriculture)
+CSCI - Computer Science
+CTMP - Contemporary Studies
+DEHY - Dental Hygiene
+DENQ - Dentistry Qualifying
+DENT - Dentistry
+DISM - Disability Management
+DMUT - Diagnostic Medical Ultrasound Technology
+ECED - Electrical and Computer Engineering
+ECMM - Electronic Commerce
+ECOA - Economics (Faculty of Agriculture)
+ECON - Economics
+EGLA - English (Faculty of Agriculture)
+EMSP - Early Modern Studies
+ENGI - Engineering
+ENGL - English
+ENGM - Engineering Mathematics
+ENGN - Engineering (Faculty of Agriculture)
+ENSL - English Language (Continuing Education)
+58
+ENVA - Environmental Sciences (Faculty of Agriculture)
+ENVE - Environmental Engineering
+ENVI - Environmental Studies
+ENVS - Environmental Science
+ERTH - Earth Sciences
+EURO - European Studies
+EXTE - Extension Education
+FIGA - First Year Interest Groups - Arts and Social Sciences
+FIGS - First Year Interest Groups - Science
+FILM - Film Studies
+FOOD - Food Science (Faculty of Agriculture)
+FOSC - Food Science
+FREN - French
+FRNA - French (Faculty of Agriculture)
+GELA - Geology
+GEOA - Geography (Faculty of Agriculture)
+GEOG - Geography
+GENE - Genetics
+GERM - German
+GWST - Gender and Women’s Studies
+HAHP - Health and Human Performance
+HESA - Health Administration
+HINF - Health Informatics
+HISA - History (Faculty of Agriculture)
+HIST - History
+HLTH - Health Professions
+HORT - Horticulture
+HPRO - Health Promotion
+HSCE - Health Sciences Education
+HSTC - History of Science and Technology
+HUCD - Human Communication Disorders
+IAGR - International Development (Faculty of Agriculture)
+IDHS - Interdisciplinary Health Studies
+INDG - Indigenous Studies
+IENG - Industrial Engineering
+INFB - International Food Business
+INFO - Information Management
+INFX - Informatics
+INTA - Internship (Faculty of Agriculture)
+INTD - International Development Studies
+INTE - Interdisciplinary Studies (Graduate)
+INWK - Engineering Internetworking
+IPHE - Interprofessional Health Education
+ITAL - Italian
+JOUR - Journalism
+KINE - Kinesiology
+KING - King’s Foundation Year Programme
+LARC - Landscape Architecture
+LAWS - Law
+LEIS - Leisure Studies
+LJSO - Law, Justice and Society
+MARA - Marine Affairs
+MARI - Marine Biology
+MATH - Mathematics
+MATL - Materials Engineering
+MCRA - Microbiology (Faculty of Agriculture)
+MDLT - Medical Lab Technology
+MECH - Mechanical Engineering
+MEDI - Medicine
+MEDP - Medical Physics
+MEDR - Medical Research
+59
+MEDS - Medical Sciences
+MGMT - Management
+MGTA - Management (Faculty of Agriculture)
+MICI - Microbiology & Immunology
+MINE - Mineral Resource Engineering
+MRIT - Magnetic Resonance Imaging Technology
+MTHA - Mathematics (Faculty of Agriculture)
+MUSC - Music
+NESC - Neuroscience
+NUMT - Nuclear Medicine Technology
+NURS - Nursing
+NUTR - Nutrition
+OCCU - Occupational Therapy
+OCEA - Oceanography
+ORAL - Oral & Maxillofacial Surgery
+PATH - Pathology
+PEAS - Process Engineering and Applied Science
+PERF - Performance Studies
+PERI - Periodontics
+PETR - Petroleum Engineering
+PGMD - Post-Graduate Medicine
+PGPH - Post-Graduate Pharmacy
+PHAC - Pharmacology
+PHAR - Pharmacy
+PHDP - PHD Program
+PHIL - Philosophy
+PHLA - Philosophy (Faculty of Agriculture)
+PHYC - Physics and Atmospheric Science
+PHYL - Physiology
+PHYS - Physics (Faculty of Agriculture)
+PHYT - Physiotherapy
+PLAN - Planning
+PLSC - Plant Science
+POLI - Political Science
+POLS - Political Science (Faculty of Agriculture)
+PROS - Prosthodontics
+PSYC - Psychology (Faculty of Agriculture)
+PSYO - Psychology
+PSYR - Psychiatry
+PUAD - Public Administration
+RADT - Radiological Technology
+REGN - Registration Course - Graduate
+RELS - Religious Studies
+RESM - Research Methods/Project Seminars
+RSPT - Respiratory Therapy
+RURS - Rural Studies
+RUSN - Russian Studies
+SCIE - Science
+SLWK - Social Work
+SOCI - Sociology (Faculty of Agriculture)
+SOIL - Soils
+SOSA - Sociology and Social Anthropology
+SPAN - Spanish and Latin American Studies
+SPEC - Special Topics
+SPNA - Spanish (Faculty of Agriculture)
+STAA - Statistics (Faculty of Agriculture)
+STAT - Statistics
+SUST - Sustainability
+THEA - Theatre
+TYPR - Transition Year Program
+VISC - Vision Science
+
+
+
+comments:
+
+    # def pdf_to_text (pdf_file: str) -> [str]:
+    #     with open(pdf_file, 'rb') as pdf:
+    #         reader = PyPDF2.PdfReader(pdf, strict=False)
+    #         pdf_text = []
+    #         for page in reader.pages:
+    #             content = page.extract_text()
+    #             pdf_text.append(content)
+    #         return pdf_text
+    #
+    #listToString =""
+    # for text in extracted_text:
+    #     #listToString+=text
+    #     print(text)
+    # #print(listToString)
+    # file_re = re.compile(r'[A-Z]{4} (D|E) \d{4}')
+    # results = file_re.finditer(extracted_text[0])
+    # for match in results:
+    #     print(match.group())
+    """
+    we can do it in this way:
+    matches = re.finditer(r"CSCI", extracted_text[1])
+    """
+    #
+    # pattern = re.compile(r'[A-Z]{4} (D|E) \d{4}')
+    # #pattern = re.compile(r'CSCI')
+    #
+    # for i, line in enumerate(listToString.split('\n')):
+    #     if pattern.split(line):
+    #          print(line + f"\tLine number {i}")
+    #
+    # text = "Hello World This is me  lll"
+    # h1, *h2 = text.split()
+    # sent = ''.join(h2)
+    # print(sent)
+    # matches = pattern.match(listToString)
+    # print(matches)
+    # i = 0
+    # for match in matches:
+    #     print(match)
